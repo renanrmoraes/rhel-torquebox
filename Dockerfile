@@ -1,6 +1,6 @@
 # centos-torquebox
 
-FROM       centos
+FROM       my-rhel7
 MAINTAINER Jakub Hadvig <jhadvig@redhat.com>
 
 RUN mkdir -p /opt/torquebox && useradd torquebox -c"Torquebox system user" -M -ptorquebox
